@@ -1,0 +1,23 @@
+body {
+  height: 100vh;
+  width: 100%;
+  margin: 0; /* Remove default margin to ensure the button is centered */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#button {
+  padding: 5px 10px;
+  border-radius: 20px;
+  background-color: #208080;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+
+  &:hover {
+    background-color: #606060;
+  }
+  &:active {
+    background-color: #404040;
+  }
+}

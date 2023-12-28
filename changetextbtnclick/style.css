@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+}
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+  align-items: center;
+  justify-content: center;
+}
+button {
+  border-radius: 8px;
+  background-color: #808080;
+  color: #fff;
+}

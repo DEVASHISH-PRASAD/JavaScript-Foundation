@@ -1,0 +1,11 @@
+#container {
+  position: relative;
+}
+
+#movingImage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50px; /* Set your desired image width */
+  height: 50px; /* Set your desired image height */
+}

@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+#app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+li {
+  margin: 8px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  display: inline-block;
+  cursor: pointer;
+}
+button {
+  padding: 7px 14px;
+  border-radius: 18px;
+  background-color: lightgreen;
+  color: brown;
+  font-weight: 500;
+  font-size: 12px;
+}
+#unorderlist {
+  list-style-type: none; /* Remove default list styling */
+  padding: 0; /* Remove default padding */
+}
